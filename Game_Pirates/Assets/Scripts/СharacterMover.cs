@@ -21,6 +21,7 @@ public class СharacterMover : MonoBehaviour
     private void Update()
     {
         Move();
+        sprite.enabled = true; //Don't know why, but sprite.enable = false, when Destry() of any object called
     }
 
     private void Move()
